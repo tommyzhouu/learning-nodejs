@@ -1,0 +1,27 @@
+HTTP Response - Status Codes
+    1. Information responses - Hold On
+    2. Successful responses - Here you go
+    3. Redirection messages - Go away
+    4. Client error responses - You messed up
+    5. Server error responses - I messed up
+
+Status codes are defined by RFC 9110.
+
+
+Middlewares
+    Preprocess the request - perform various functions on the request before sent
+    Logging the request - how long did the request take to come through, status of the request
+    Authentication - before we let request through, see if client is authorised
+    Process errors in request
+
+Comman middleware in nodeJS and express is body parser. 
+    parse incoming request bodies before your handlers.
+
+
+<form> action="/login" method="POST">
+    <label for="email">Email</label>
+    <input type="text" name="email" required>
+    <label for="password">Password</label>
+    <input type="text" name="password" required>
+    <input type="submit" value="Submit">
+</form>

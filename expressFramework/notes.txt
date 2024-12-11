@@ -1,0 +1,35 @@
+Why do we need Express?
+
+- Express is a Javascript framework that works alongside Node. 
+- Node is powerful, it can be used to do anything, it allows JS to be ran on anything, mostly used in web development back end. 
+- Can even be used to write desktop apps, VSCode is written in Node.JS.
+- Not very specialized for one certain thing. 
+- ANALOGY: Node.js is a screwdriver, tool that allows us to use JS on any computer, not just browser. It allows us to complete many tasks, but an electric screwdriver is better and quicker. Express is like an electric screwdriver, allows us to use Node and JS to create our website back much more easily. 
+- Express is better because the code is a lot more readible and requires less code, compared to if we were to write it using just Node.
+
+- Backend 
+    - Application
+    - Server 
+    - Database
+
+- Client/user goes via Internet to reach your server computer, to make an request for the website they want to look at. 
+- Request goes through to the internet to website server, the application listens to this request and sends the page to the client.
+- Client-side is front end
+- Server-side is back end
+
+- Using Express + Node, we build a server.
+
+- Creating an Express Server
+    1. Create directory.
+    2. Create index.js file.
+    3. Initialise NPM.
+    4. Install the Express package.
+    5. Write Server application in index.js.
+    6. Start server.
+
+
+mkdir - make directory
+touch - create file
+
+When we dont have a server on the internet and we want to host the server locally on our own computer, we use localhost.
+The port is like a door, one of many on our computer. 

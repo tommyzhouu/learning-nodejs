@@ -1,0 +1,30 @@
+{
+  "name": "learning-nodejs",
+  "version": "1.0.0",
+  "description": "I'm learning NodeJS",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tommyzhouu/learning-nodejs.git"
+  },
+  "author": "Thomas Zhou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tommyzhouu/learning-nodejs/issues"
+  },
+  "homepage": "https://github.com/tommyzhouu/learning-nodejs#readme",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "inquirer": "^12.1.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.7",
+    "qr-image": "^3.2.0",
+    "sillyname": "^0.1.0",
+    "superheroes": "^4.0.0"
+  }
+}
